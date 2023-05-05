@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.invalid:focus {
+    border: 2px solid red;
+}
+
+.form-text {
+    color: red;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 90vw !important;
+    }
+}

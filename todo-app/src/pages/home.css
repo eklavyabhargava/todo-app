@@ -1,0 +1,8 @@
+.dropdown-item {
+    background-color: white !important;
+    color: black !important;
+}
+
+.card {
+    cursor: pointer;
+}
